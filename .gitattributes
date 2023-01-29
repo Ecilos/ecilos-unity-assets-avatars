@@ -14,6 +14,7 @@
 *.meta merge=unityyamlmerge eol=lf
 *.physicMaterial merge=unityyamlmerge eol=lf
 *.physicsMaterial2D merge=unityyamlmerge eol=lf
+*.prefab merge=unityyamlmerge eol=lf
 *.unity merge=unityyamlmerge eol=lf
 
 ## git-lfs ##
@@ -39,7 +40,6 @@
 *.blend filter=lfs diff=lfs merge=lfs -text
 *.fbx filter=lfs diff=lfs merge=lfs -text
 *.obj filter=lfs diff=lfs merge=lfs -text
-*.prefab filter=lfs diff=lfs merge=lfs -text
 
 # Video
 *.mov filter=lfs diff=lfs merge=lfs -text

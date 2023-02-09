@@ -1,8 +1,9 @@
 .DS_Store
 Library/
-Logs.meta
 Logs/
-Temp.meta
+Logs.meta
+ProjectSettings/Packages/
 Temp/
-UserSettings.meta
+Temp.meta
 UserSettings/
+UserSettings.meta

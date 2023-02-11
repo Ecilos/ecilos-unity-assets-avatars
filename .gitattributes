@@ -11,6 +11,7 @@
 *.anim merge=unityyamlmerge eol=lf
 *.asset merge=unityyamlmerge eol=lf
 *.controller merge=unityyamlmerge eol=lf
+*.lighting merge=unityyamlmerge eol=lf
 *.mat merge=unityyamlmerge eol=lf
 *.mesh merge=unityyamlmerge eol=lf
 *.meta merge=unityyamlmerge eol=lf

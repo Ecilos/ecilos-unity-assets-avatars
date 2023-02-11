@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Treeman_TopBody.007
+  m_Name: M_Treeman_BotBody.007
   m_Shader: {fileID: -6465566751694194690, guid: a08f3a1c845d57c4293a42c3202574a1,
     type: 3}
   m_ValidKeywords: []
@@ -25,27 +25,25 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 8009727818586853621, guid: 03462e2af2f9d418ab0c15a5076195bc,
+        m_Texture: {fileID: -7706986695116071574, guid: 03462e2af2f9d418ab0c15a5076195bc,
           type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: -6687198734223620431, guid: 03462e2af2f9d418ab0c15a5076195bc,
-          type: 3}
+        m_Texture: {fileID: 2800000, guid: 95895dfeedc7e48108dbebf689d1cb8c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 1114877306669140642, guid: 03462e2af2f9d418ab0c15a5076195bc,
-          type: 3}
+        m_Texture: {fileID: 2800000, guid: 359da644426154185b7c98db8a5e54aa, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2811912768266144360, guid: 03462e2af2f9d418ab0c15a5076195bc,
+        m_Texture: {fileID: 7617952411802729741, guid: 03462e2af2f9d418ab0c15a5076195bc,
           type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2811912768266144360, guid: 03462e2af2f9d418ab0c15a5076195bc,
+        m_Texture: {fileID: 7617952411802729741, guid: 03462e2af2f9d418ab0c15a5076195bc,
           type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -73,7 +71,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &4463227664857415304
+--- !u!114 &1642906804154852774
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

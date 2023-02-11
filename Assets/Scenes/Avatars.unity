@@ -1080,7 +1080,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4cb102885396d43f7b5d1eba698d241d, type: 2}
+      objectReference: {fileID: 2100000, guid: 209df30343c10409d95b9b29b05fefae, type: 2}
     - target: {fileID: 8017634568735325607, guid: 8adf64fcbc6084fd2a91e3c3ef52090d,
         type: 3}
       propertyPath: m_IsActive
@@ -1345,6 +1345,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: EarthElemental638
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523826952687976074, guid: b281eaf699e1d4a2d819ce5dda5d9dc5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8523826952687976075, guid: b281eaf699e1d4a2d819ce5dda5d9dc5,
         type: 3}

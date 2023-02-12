@@ -1,4 +1,6 @@
-# Avatar assets for Ecilos project
+# Sandbox - Avatar assets for Ecilos project
+
+This repository acts as a sandbox for developing new avatars for Ecilos project.
 
 ## Prerequisites
 
@@ -11,7 +13,7 @@ To open the project, follow these steps:
 
 1. Clone Git repository recursively (with all submodules):
 
-       git clone --recursive https://github.com/Ecilos/ecilos-unity-assets-avatars.git
+       git clone --recursive https://github.com/Ecilos/ecilos-unity-assets-avatars-sandbox.git
 
 2. In _Unity Hub_, _Add project from disk_ and select cloned repository.
 3. Open the project.

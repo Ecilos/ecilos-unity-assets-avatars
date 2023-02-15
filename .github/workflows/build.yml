@@ -1,0 +1,27 @@
+---
+name: Build
+
+# yamllint disable-line rule:truthy
+on:
+  pull_request:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+
+      - name: Set up Unity
+        uses: game-ci/unity-builder@v2
+        with:
+          targetPlatform: WebGL
+
+      - uses: actions/cache@v2
+        with:
+          path: Library
+          restore-keys: |
+            Library-

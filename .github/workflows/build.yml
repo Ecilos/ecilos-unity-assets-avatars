@@ -16,9 +16,12 @@ jobs:
           submodules: 'recursive'
 
       - name: Set up Unity
-        uses: game-ci/unity-builder@v2
+        uses: game-ci/unity-test-runner@v2
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
-          targetPlatform: WebGL
+          projectPath: .
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/cache@v2
         with:

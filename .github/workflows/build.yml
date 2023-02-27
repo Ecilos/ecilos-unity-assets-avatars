@@ -15,6 +15,11 @@ jobs:
         with:
           submodules: 'recursive'
 
+      - uses: actions/cache@v2
+        with:
+          key: library
+          path: Library
+
       - name: Set up Unity
         uses: game-ci/unity-test-runner@v2
         env:
@@ -22,8 +27,3 @@ jobs:
         with:
           projectPath: .
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-
-      - uses: actions/cache@v2
-        with:
-          key: library
-          path: Library

@@ -25,6 +25,5 @@ jobs:
 
       - uses: actions/cache@v2
         with:
+          key: library
           path: Library
-          restore-keys: |
-            Library-

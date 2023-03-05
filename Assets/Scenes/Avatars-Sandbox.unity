@@ -618,6 +618,12 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!1 &1102287758 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 149790, guid: 8cf651c7d1a3044d4bfdd64568dca867,
+    type: 3}
+  m_PrefabInstance: {fileID: 5683664999400670003}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1109658270 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7263782495792512324, guid: 3bc2472ca54844190a42afdcee6abc01,
@@ -630,8 +636,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 651561608}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1178664880
-MeshCollider:
+--- !u!136 &1178664883
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -640,10 +646,10 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1835956383387629006, guid: 39015d4e07e9eda43b4e5903397dc7af, type: 3}
+  m_Radius: 0.34
+  m_Height: 1.8
+  m_Direction: 2
+  m_Center: {x: 0.0026892123, y: 0.034668226, z: 0.8714813}
 --- !u!1 &1289730554
 GameObject:
   m_ObjectHideFlags: 0
@@ -1686,6 +1692,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9579096, guid: 8cf651c7d1a3044d4bfdd64568dca867, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9579096, guid: 8cf651c7d1a3044d4bfdd64568dca867, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cf651c7d1a3044d4bfdd64568dca867, type: 3}
 --- !u!4 &5683664999400670004 stripped
@@ -1694,6 +1708,20 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5683664999400670003}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &5683664999400670006
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102287758}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 1.6
+  m_Direction: 1
+  m_Center: {x: 0.00028880444, y: 0.77771074, z: -0.04062958}
 --- !u!1001 &7263782494683379674
 PrefabInstance:
   m_ObjectHideFlags: 0
